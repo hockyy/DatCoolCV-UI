@@ -21,8 +21,8 @@ const data = {
     "description": "Candidate for bachelor's degree in Computer Science",
     "items": [
       "Member on one of the 2019, 2020, and 2021 ICPC core teams.",
-      "Lecture assistant of Operating Systems 07/2021, Programming Foundations 1 08/2020, Competitive Programming 02/2021 and 02/2022",
-      "Person in Charge of ICPC Multi-Provincial: COMPFEST 2021"
+      "Lecture assistant of Operating Systems 07/2021, Programming Foundations 1 08/2020, Competitive Programming 02/2021 and 02/2022.",
+      "Person in Charge of ICPC Multi-Provincial: COMPFEST 2021."
     ]
   }],
   "employment": [{
