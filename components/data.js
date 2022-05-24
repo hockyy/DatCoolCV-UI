@@ -9,7 +9,7 @@ const data = {
     "location": "Pontianak, Indonesia",
     "phone": "+62 818-0724-0802",
     "linkedin": "hocky",
-    "email": "hocky.yudhiono@gmail.com"
+    "email": "its@hocky.id"
   },
   "education": [{
     "name": "Universitas Indonesia",
@@ -70,7 +70,7 @@ const data = {
     },
     {
       "name": "Web Developing",
-      "desc": "HTML, CSS, Markdown, Django, Spring Boot, Hibernate, currently learning Node.js, Spring, React, Angular"
+      "desc": "HTML, CSS, Markdown, Django, Spring Boot, Hibernate, Node.js, Spring, React.js, Fastify, React Native"
     },
     {
       "name": "Other Technologies",
@@ -119,16 +119,52 @@ const data = {
       "issuer": "ICPC Foundation"
     },
     {
+      "medal": "silver",
+      "name": "Second Winner of ARKAVIDIA 7.0 Competitive Programming Competition",
+      "date": "February 2021",
+      "issuer": "Bandung Institute of Technology"
+    },
+    {
       "medal": "gold",
       "name": "National Gold Medalist of the 2019 ICPC Asia Jakarta Regional Contest",
       "date": "October 2020",
       "issuer": "ICPC Foundation"
     },
     {
+      "medal": "gold",
+      "name": "First Winner of JOINTS Programming Competition Session",
+      "date": "May 2019",
+      "issuer": "Universitas Gadjah Mada"
+    },
+    {
       "medal": "silver",
       "name": "Silver Medalist of APIO (Asia-Pacific Informatics Olympiad)",
       "date": "May 2019",
-      "issuer": "Innopolis University"
+      "issuer": "APIO Committee"
+    },
+    {
+      "medal": "bronze",
+      "name": "Third Winner of Competitive Programming Competition",
+      "date": "April 2022",
+      "issuer": "Universitas Sumatera Utara"
+    },
+    {
+      "medal": "gold",
+      "name": "First Winner of Find It! Competitive Programming Competition",
+      "date": "August 2020",
+      "issuer": "Universitas Gadjah Mada"
+    },
+    {
+      "medal": "silver",
+      "name": "Second Winner of ARKAVIDIA 6.0 Competitive Programming Competition",
+      "date": "February 2020",
+      "issuer": "Bandung Institute of Technology"
+    },
+    {
+      "medal": "silver",
+      "name": "Second Winner of NPC 2021 Schematics Programming Competition",
+      "date": "October 2021",
+      "issuer": "Sepuluh Nopember Institute of Technology"
     },
     {
       "medal": "bronze",
@@ -141,7 +177,19 @@ const data = {
       "name": "Gold Medalist of NOI (National Olympiad of Informatics) of Singapore",
       "date": "March 2019",
       "issuer": "Ministry of Education of Singapore"
-    }
+    },
+    {
+      "medal": "bronze",
+      "name": "Fourth Winner of 2020 GEMASTIK Programming Division",
+      "date": "October 2020",
+      "issuer": "Ministry of Education and Culture of Indonesia"
+    },
+    {
+      "medal": "bronze",
+      "name": "Bronze Medallist of OSN (Olimpiade Sains Nasional) in Informatics of Indonesia",
+      "date": "July 2017",
+      "issuer": "Ministry of Education and Culture of Indonesia"
+    },
   ],
   "others": [
     {
@@ -159,6 +207,30 @@ const data = {
         "name": "UImate"
       },
       "desc": "Team lead of a web developing course final project, students gathering platform. Involving Django, jQuery, PostgreSQL, and Gitlab CI."
+    },
+    {
+      "name": {
+        "logo": "gitlab",
+        "url": "https://gitlab.cs.ui.ac.id/ppl-fasilkom-ui/2022/Kelas-D/ajaib/ajaib-frontend",
+        "name": "Ajaib Crypto"
+      },
+      "desc": "Cryptocurrency to-go mobile app, mainly act as a scrum master and development lead. Involving React Native, SQL, Fastify, Typescript, Docker."
+    },
+    {
+      "name": {
+        "logo": "gitlab",
+        "url": "https://gitlab.com/ganiirsyadi/kenyang-fe",
+        "name": "Kenyang"
+      },
+      "desc": "Restaurant integrated information system of a software engineering final project. Involving React.js, Supabase, SQL, CSS."
+    },
+    {
+      "name": {
+        "logo": "gitlab",
+        "url": "https://github.com/hockyy/GenshinAchievements",
+        "name": "Genshin Impact Achievements Generator"
+      },
+      "desc": "Fun one sitting project. Involving React.js, Redis, Typescript, Python, Pillow, Photoshop."
     }
   ]
 }

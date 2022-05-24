@@ -85,7 +85,7 @@ export default function Home() {
         </Flex>
         <hr className={'border-0 bg-black text-black h-1 mt-2 mb-2'}/>
         <Flex className={'flex-col md:flex-row'}>
-          <Flex className={'p-2 flex-col md:w-6/12'} key ='left'>
+          <Flex className={'p-2 flex-col md:w-6/12'} key={'left'}>
             <SectionContainer key='education'>
               <h2 className={'text-2xl'}>Education</h2>
               {
@@ -99,9 +99,6 @@ export default function Home() {
                 data.employment.map((employmentItem, idx) => (<EmploymentItem key={idx} employmentItem={employmentItem}/>))
               }
             </SectionContainer>
-          </Flex>
-          <Flex className={'p-2 flex-col md:w-6/12'} key={'right'}>
-
             <SectionContainer key={'skills'}>
               <h2 className={'text-2xl'}>Professional Skills</h2>
               <UnorderedList>
@@ -121,7 +118,11 @@ export default function Home() {
             </SectionContainer>
 
 
-            <SectionContainer key={'achievements'}>
+
+          </Flex>
+          <Flex className={'p-2 flex-col md:w-6/12'} key ='right'>
+
+           <SectionContainer key={'achievements'}>
               <h2 className={'text-2xl'}>Achievements</h2>
               <UnorderedListSmall>
                 {
@@ -140,6 +141,7 @@ export default function Home() {
               </UnorderedList>
             </SectionContainer>
           </Flex>
+
         </Flex>
       </Container>
     </div>
