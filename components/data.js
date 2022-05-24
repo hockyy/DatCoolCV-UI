@@ -29,8 +29,8 @@ const data = {
     "name": "Money Forward, Inc.",
     "location": "Tokyo, Japan",
     "position": "Backend Engineer Intern",
-    "startPeriod": "July 2021",
-    "endPeriod": "August 2021",
+    "startPeriod": "July",
+    "endPeriod": "August 2021, January – February 2022",
     "items": [
       "Developed REST and gRPC Microservices in Golang, involving MySQL, Amazon S3 cloud object storage, and Docker.",
       "Improved DAO layer performance of existing design.",
