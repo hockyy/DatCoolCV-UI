@@ -43,7 +43,7 @@ export default function Home() {
             </span>
                 {data.info.lastName}
               </h1>
-              <h1 className={'text-3xl'}>
+              <h1 className={'text-3xl'} >
                 {data.info.caption}
               </h1>
             </div>
@@ -87,20 +87,20 @@ export default function Home() {
         <Flex className={'flex-col md:flex-row'}>
           <Flex className={'p-2 flex-col md:w-6/12'} key={'left'}>
             <SectionContainer key='education'>
-              <h2 className={'text-2xl'}>Education</h2>
+              <h2 className={'text-2xl'}>Riwayat Pendidikan</h2>
               {
                 data.education.map((educationItem, idx) => (<EducationItem key={idx} educationItem={educationItem}/>))
               }
             </SectionContainer>
 
             <SectionContainer key={'employment'}>
-              <h2 className={'text-2xl'}>Employment History</h2>
+              <h2 className={'text-2xl'}>Riwayat Pekerjaan</h2>
               {
                 data.employment.map((employmentItem, idx) => (<EmploymentItem key={idx} employmentItem={employmentItem}/>))
               }
             </SectionContainer>
             <SectionContainer key={'skills'}>
-              <h2 className={'text-2xl'}>Professional Skills</h2>
+              <h2 className={'text-2xl'}>Kemampuan Profesional</h2>
               <UnorderedList>
                 {
                   data.skills.map((skillItem,idx) => (<SkillItem skillItem={skillItem} key={idx}/>))
@@ -109,7 +109,7 @@ export default function Home() {
             </SectionContainer>
 
             <SectionContainer key={'languages'}>
-              <h2 className={'text-2xl'}>Languages</h2>
+              <h2 className={'text-2xl'}>Bahasa</h2>
               <UnorderedList>
                 {
                   data.languages.map((languageItem, idx) => (<LanguageItem languageItem={languageItem}  key={idx}/>))
@@ -123,7 +123,7 @@ export default function Home() {
           <Flex className={'p-2 flex-col md:w-6/12'} key ='right'>
 
            <SectionContainer key={'achievements'}>
-              <h2 className={'text-2xl'}>Achievements</h2>
+              <h2 className={'text-2xl'}>Prestasi dan Penghargaan</h2>
               <UnorderedListSmall>
                 {
                   data.achievements.map((achievementItem, idx) => (<AchievementItem achievementItem={achievementItem} key={idx}/>))
@@ -133,7 +133,7 @@ export default function Home() {
 
 
             <SectionContainer key={'experiences'}>
-              <h2 className={'text-2xl'}>Relevant Experiences</h2>
+              <h2 className={'text-2xl'}>Pengalaman Relevan</h2>
               <UnorderedList>
                 {
                   data.others.map((experienceItem, idx) => (<ExperienceItem experienceItem={experienceItem} key={idx}/>))
