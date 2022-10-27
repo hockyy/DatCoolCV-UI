@@ -90,49 +90,73 @@ const data = {
   "achievements": [
     {
       "medal": "gold",
-      "name": "Terbaik Nasional dan Juara Keempat pada The 2021 ICPC Asia Jakarta Regional Contest",
+      "name": "Tim terbaik nasional dan juara keempat (berkelompok) pada The 2021 ICPC Asia Jakarta Regional Contest",
       "date": "November 2021",
       "issuer": "ICPC Foundation"
     },
     {
       "medal": "gold",
-      "name": "Pemenang pada The 2021 Indonesia National Contest (INC)",
+      "name": "Tim pemenang (berkelompok) pada The 2021 Indonesia National Contest (INC)",
       "date": "Oktober 2021",
       "issuer": "ICPC Foundation"
     },
     {
       "medal": "silver",
-      "name": "Medalis Perak pada lomba pemrograman GEMASTIK 2021",
+      "name": "Medalis perak (berkelompok) pada lomba pemrograman GEMASTIK 2021",
       "date": "Oktober 2021",
       "issuer": "Kementerian Pendidikan dan Kebudayaan Indonesia"
     },
     {
+      "medal": "gold",
+      "name": "Juara pertama (berkelompok) pada Find It! Competitive Programming Competition",
+      "date": "Mei 2022",
+      "issuer": "Universitas Gadjah Mada"
+    },
+    {
+      "medal": "gold",
+      "name": "Juara pertama (berkelompok) pada INFEST Programming Competition",
+      "date": "Oktober 2022",
+      "issuer": "Universitas Syiah Kuala"
+    },
+    {
+      "medal": "gold",
+      "name": "Juara pertama (berkelompok) pada NPC 2022 Schematics Programming Competition",
+      "date": "Oktober 2022",
+      "issuer": "Institut Teknologi Sepuluh Nopember"
+    },
+    {
+      "medal": "silver",
+      "name": "Juara kedua (berkelompok) pada IDEAFUSE Programming Competition",
+      "date": "Oktober 2022",
+      "issuer": "Universitas Mikroskil"
+    },
+    {
       "medal": "bronze",
-      "name": "Medalis Perak pada The 2020 ICPC Asia Jakarta Regional Contest",
+      "name": "Medalis perak (berkelompok) pada The 2020 ICPC Asia Jakarta Regional Contest",
       "date": "Desember 2020",
       "issuer": "ICPC Foundation"
     },
     {
       "medal": "bronze",
-      "name": "Juara ketiga pada The 2019 ICPC Asia Kuala Lumpur Regional Contest",
+      "name": "Juara ketiga (berkelompok) pada The 2019 ICPC Asia Kuala Lumpur Regional Contest",
       "date": "November 2019",
       "issuer": "ICPC Foundation"
     },
     {
       "medal": "silver",
-      "name": "Juara kedua pada lomba pemrograman kompetitif ARKAVIDIA 7.0",
+      "name": "Juara kedua (berkelompok) pada lomba pemrograman kompetitif ARKAVIDIA 7.0",
       "date": "Februari 2021",
       "issuer": "Institut Teknologi Bandung"
     },
     {
       "medal": "gold",
-      "name": "Medalis Emas Nasional pada The 2019 ICPC Asia Jakarta Regional Contest",
+      "name": "Medalis emas nasional (berkelompok) pada The 2019 ICPC Asia Jakarta Regional Contest",
       "date": "Oktober 2020",
       "issuer": "ICPC Foundation"
     },
     {
       "medal": "gold",
-      "name": "Juara Pertama pada JOINTS Programming Competition Session",
+      "name": "Juara pertama pada JOINTS Programming Competition Session",
       "date": "Mei 2019",
       "issuer": "Universitas Gadjah Mada"
     },
@@ -144,25 +168,25 @@ const data = {
     },
     {
       "medal": "bronze",
-      "name": "Juara Ketiga pada ITFest! Competitive Programming Competition",
+      "name": "Juara ketiga (berkelompok) pada ITFest! Competitive Programming Competition",
       "date": "April 2022",
       "issuer": "Universitas Sumatera Utara"
     },
     {
       "medal": "gold",
-      "name": "Juara Pertama pada Find It! Competitive Programming Competition",
+      "name": "Juara pertama (berkelompok) pada Find It! Competitive Programming Competition",
       "date": "Agustus 2020",
       "issuer": "Universitas Gadjah Mada"
     },
     {
       "medal": "silver",
-      "name": "Juara kedua pada lomba pemrograman kompetitif ARKAVIDIA 7.0 ",
+      "name": "Juara kedua (berkelompok) pada lomba pemrograman kompetitif ARKAVIDIA 7.0 ",
       "date": "Februari 2020",
       "issuer": "Institut Teknologi Bandung"
     },
     {
       "medal": "silver",
-      "name": "Juara Kedua pada NPC 2021 Schematics Programming Competition",
+      "name": "Juara kedua (berkelompok) pada NPC 2021 Schematics Programming Competition",
       "date": "Oktober 2021",
       "issuer": "Institut Teknologi Sepuluh Nopember"
     },
@@ -180,13 +204,13 @@ const data = {
     },
     {
       "medal": "bronze",
-      "name": "Juara Keempat pada lomba pemrograman GEMASTIK 2020",
+      "name": "Juara keempat (berkelompok) pada lomba pemrograman GEMASTIK 2020",
       "date": "Oktober 2020",
       "issuer": "Kementerian Pendidikan dan Kebudayaan Indonesia"
     },
     {
       "medal": "bronze",
-      "name": "Medalis Perunggu pada OSN (Olimpiade Sains Nasional) bidang Informatika Indonesia",
+      "name": "Medalis perunggu pada OSN (Olimpiade Sains Nasional) bidang Informatika Indonesia",
       "date": "Juli 2017",
       "issuer": "Kementerian Pendidikan dan Kebudayaan Indonesia"
     },
